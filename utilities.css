@@ -1,0 +1,148 @@
+.flex{
+    display: flex;
+}
+.flex-dir-col{
+    flex-direction: column;
+}
+.flex-dir-row{
+    flex-direction: row;
+}
+.flex-start{
+    align-items: flex-start;
+}
+.flex.wrap{
+    flex-wrap: wrap;
+}
+.justify-centre{
+    justify-content: center;
+}
+.justify-space{
+    justify-content: space-between;
+}
+.justify-arround{
+    justify-content: space-around;
+}
+.item-centre{
+    align-items: center;
+}
+.text-align{
+    text-align: center;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-28{
+    font-size: 28px;
+}
+.fs-34{
+    font-size: 34px;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-900{
+    font-weight: 900;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.g-8{
+    gap: 8px;
+}
+.g-15{
+    gap: 15px;
+}
+.g-25{
+    gap: 25px;
+}
+.g-110{
+    gap: 110px;
+}
+.m-top-20{
+    margin-top: 20px;
+}
+.m-top-40{
+    margin-top: 40px;
+}
+.m-bottom-10{
+    margin-bottom: 10px;
+}
+.m-bottom-20{
+    margin-bottom: 20px;
+}
+.m-bottom-40{
+    margin-bottom: 40px;
+}
+.pad-8{
+    padding: 8px;
+}
+.pad-25{
+    padding: 25px;
+}
+.col-white{
+    color: white;
+}
+.bg-red{
+    background-color: rgb(245, 23, 23);
+}
+.bg-voilet{
+    /* background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); */
+    /* background-color: rgba(32,42,68,0.4); */
+    /* background-color: rgba(10, 21, 48, 0.637); */
+    background-color: rgb(20,10,36);
+}
+.bg-bluevoilet{
+    background-color: rgb(19,33,68);
+  
+}
+.line-ht-40{
+    line-height: 30px;
+}
+.line-ht-75{
+    line-height: 75px;
+}
+.line-ht-55{
+    line-height: 55px;
+}
+.border-rad-8{
+    border-radius: 5px;
+}
+.start-btn{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 24px;
+    padding: 10px;
+    width: 180px;
+}
+.hero-heading{
+    font-weight: 900;
+    font-size: 4rem;
+}
+.heading{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.text-underline{
+    text-underline-position: under;
+    color: white;
+}
+.footer-color{
+    color: rgba(255, 255, 255, 0.7);
+}

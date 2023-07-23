@@ -1,0 +1,655 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: black;
+    /* margin: 0px 0px 30px 25px;   */
+    width: 96%;
+    margin: auto;
+    justify-content: center;
+    color: white;
+    overflow: auto;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* .nav-container{
+    margin-top: 0px;
+} */
+.logo img {
+    width: 180px;
+    height: 100px;
+}
+
+.lang {
+    border: 0.5px solid rgba(255, 255, 255, 0.4);
+    padding: 15px;
+    width: 140px;
+    height: 30px;
+    font-weight: 100;
+    border-radius: 3px;
+    /* background-color: rgb(238, 233, 233); */
+
+}
+
+.lang h3 {
+    display: inline;
+}
+
+.sign-in {
+    width: 100px;
+    height: 34px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+
+/* ------------- Hero section --------- */
+
+.hero-container {
+    background-image: linear-gradient(65.68deg, rgba(0, 8, 29, 0.6) 9.51%, rgba(53, 13, 49, 0.6) 72.89%, rgba(132, 5, 25, 0.6) 101.01%), linear-gradient(102.21deg, rgba(0, 0, 0, 0.04) 16.09%, rgba(1, 1, 1, 0.17) 39.27%, rgba(1, 1, 1, 0.24) 64.25%, rgba(4, 4, 4, 0.8) 96.63%), url(Images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 18px;
+}
+
+.hero-main-content {
+    margin: 130px;
+}
+.hero-heading {
+    width: auto;
+    font-size: 2.5rem;
+}
+
+.email h3 {
+    width: 50vw;
+    font-size: 1.2rem;
+}
+
+.email-address input {
+    width: 370px;
+    /* width: 100%; */
+    /* width: auto; */
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 16px;
+    padding: 14px;
+    border: 0.5px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+
+
+/* ------------- Enjoy section --------- */
+
+.enjoy-container {
+    background-color: rgba(10, 21, 48, 0.637);
+    height: 75vh;
+    width: 100%;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    /* border-radius: 18px; */
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.img-content {
+    margin-top: 120px;
+    margin-left: 120px;
+    width: 450px;
+}
+
+.images {
+    width: 500px;
+}
+
+.images img {
+    width: 500px;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.line {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+/* ------------- Watch section --------- */
+
+.watch-container {
+    background-color: rgba(10, 21, 48, 0.637);
+    height: 75vh;
+    width: 100%;
+    border: 18px;
+    margin-right: 40px;
+}
+
+.images1 {
+    width: 500px;
+}
+
+.images1 img {
+    width: 450px;
+    height: 400px;
+    margin-left: 90px;
+}
+
+.img-content1 {
+    width: 600px;
+    margin: 80px 0px 0px 60px;
+}
+
+/* ------------- Children section --------- */
+
+.children-container {
+    background-color: rgba(10, 21, 48, 0.637);
+    height: 75vh;
+    width: 100%;
+    margin-right: 40px;
+}
+
+/* ------------- Stranger section --------- */
+
+.stranger-container {
+    background-color: rgba(10, 21, 48, 0.637);
+    height: 75vh;
+    width: 100%;
+    /* border: 18px; */
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    margin-right: 40px;
+}
+
+/* ------------- Question section --------- */
+
+
+.question-container {
+    margin: 60px 8%;
+}
+
+.ques-hover:hover {
+    /* background-color: rgba(0, 0, 255, 0.3); */
+    background-color: rgba(0, 0, 128, 0.4);
+}
+
+/* ------------- Footer section --------- */
+
+.footer-container {
+    margin: 100px 20px 10px 100px;
+}
+
+.list-item {
+    width: 80%;
+}
+
+.list-item ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.list-item ul li {
+    width: 200px;
+    color: rgb(189, 170, 170);
+}
+
+.list-item ul li:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* ------------- Responsive Design --------- */
+
+
+
+/* ...................................................For Mobile............................................ */
+
+
+@media (max-width:480px) {
+
+    body,
+    html {
+        width: 98%;
+        margin: auto;
+        /* margin: 0px 0px 5px 5px; */
+    }
+
+    .logo img {
+        width: 80px;
+        height: 60px;
+    }
+
+    .lang h3 {
+        display: none;
+    }
+
+    .lang {
+        width: 70px;
+    }
+
+    .sign-in {
+        width: 70px;
+    }
+
+    .line {
+        /* z-index: 100; */
+    }
+
+    /* ..............Hero Container................... */
+    .hero-container {
+        height: 100vw;
+    }
+
+    .hero-content {
+        margin-right: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+        line-height: 30px;
+    }
+
+    .hero-content h3 {
+        font-size: 22px;
+    }
+
+    .email h3 {
+        font-size: 18px;
+        width: auto;
+    }
+
+    .hero-heading {
+        width: auto;
+    }
+
+    .hero-main-content {
+        margin: 40px 20px;
+    }
+
+    .email-address input {
+        width: auto;
+    }
+
+    /* ..............Enjoy Container................... */
+    .enjoy-container {
+        height: auto;
+    }
+
+    .enjoy-content {
+        flex-direction: column;
+        /* margin: 40px 20px; */
+    }
+
+    .img-content {
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+
+    .img-content h1 {
+        font-size: 2rem;
+    }
+
+    .img-content h3 {
+        font-size: 1rem;
+        margin-right: 20px;
+    }
+
+    .images {
+        width: 100%;
+    }
+
+    .images img {
+        width: 400px;
+        height: 300px;
+        margin-left: 30px;
+    }
+
+    /* ..............Watch Container................... */
+    .watch-container {
+        height: auto;
+    }
+
+    .media-enjoy-content {
+        flex-direction: column-reverse;
+    }
+
+    .images1 {
+        width: 100%;
+    }
+
+    .images1 img {
+        width: 400px;
+        height: 300px;
+        margin-left: 30px;
+    }
+
+    .img-content1 {
+        margin-top: 30px;
+        margin-left: 30px;
+        /* margin-right: 50px; */
+        width: 90%;
+    }
+
+    .img-content1 h1 {
+        font-size: 2rem;
+    }
+
+    .img-content1 h3 {
+        font-size: 1rem;
+        margin-right: 20px;
+    }
+
+    .children-container {
+        height: 100%;
+    }
+
+    .stranger-container {
+        height: auto;
+        /* margin-top: 20px; */
+    }
+
+    .media-question-heading h1 {
+        font-size: 2rem;
+    }
+
+    .ques-hover {
+        height: auto;
+    }
+
+    .media-question-size {
+        font-size: 20px;
+    }
+
+    .email-address {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-container {
+        /* justify-content: flex-start; */
+        margin-left: 40px;
+    }
+}
+
+
+
+
+/* ...................................................For Ipad............................................ */
+
+
+
+
+
+
+@media (min-width:481px) and (max-width:768px) {
+    .logo img {
+        width: 110px;
+        height: 65px;
+    }
+
+    .hero-container {
+        height: 120vh;
+    }
+
+    .hero-main-content {
+        margin: 150px 0px 0px 50px;
+        line-height: 45px;
+    }
+
+    .hero-content h1 {
+        width: 80vw;
+        font-size: 2.5rem;
+        line-height: 55px;
+    }
+
+    .hero-content h3 {
+        font-size: 22px;
+    }
+
+    .email-address{
+        width: auto;
+        flex-wrap: wrap;
+    }
+    .email-address input {
+        width: 100%;
+    }
+    .email-address .start-btn{
+        font-size: 1.2rem;
+    }
+
+    /* ..............Enjoy Container................... */
+    
+    .line{
+        margin-top: 50px;
+    }
+    .enjoy-container {
+        height: auto;
+    }
+
+    .enjoy-content {
+        width: 630px;
+        margin: auto;
+        /* margin: 0px auto 40px; */
+    }
+
+    .img-content {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .img-content h1 {
+        font-size: 2rem;
+    }
+
+    .img-content h3 {
+        font-size: 1rem;
+        margin-right: 18px;
+    }
+
+    .images {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .images img {
+        width: 300px;
+        height: 200px;
+        margin-left: 0px;
+    }
+
+    /* ..............Watch Container................... */
+    .watch-container {
+        height: auto;
+    }
+
+    .images1{
+        width: 300px;
+    }
+    .images1 img{
+        width: 300px;
+        height: 200px;
+        margin: 30px 0px 0px 0px; 
+    }
+    .img-content1{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .img-content1 h1{
+        font-size: 2rem;
+    }
+
+    /* ..............Strange Container................... */
+
+    .children-container{
+        height: auto;
+    }
+    /* ..............Strange Container................... */
+
+    .stranger-container{
+        height: auto;
+    }
+
+    /* ..............Question Container................... */
+
+    .media-question-heading h1{
+        font-size: 2.5rem;
+    }
+    .media-question-size{
+        font-size: 1.1rem;
+    }
+    .email h3{
+        width: auto;
+    }
+    .email-address {
+        /* width: 400px; */
+        width: auto;
+        /* width: 300px; */
+    }
+    .email-address input{
+        width: 100%;
+    }
+}
+
+
+
+/* ...................................................For Laptop............................................ */
+
+
+
+@media  (min-width:769px) and (max-width:1024px){
+    .hero-main-content{
+        height: 100vh;
+    }
+    .hero-container {
+        height: 140vh;
+    }
+
+    .hero-main-content {
+        margin: 150px 0px 0px 50px;
+        line-height: 45px;
+    }
+
+    .hero-content h1 {
+        width: 80vw;
+        font-size: 2.5rem;
+        line-height: 55px;
+    }
+
+    .hero-content h3 {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    /* ..............Enjoy Container................... */
+
+    .line{
+        margin-top: 50px;
+     }
+     
+    .enjoy-container {
+        height: auto;
+    }
+    .img-content {
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+    .images img{
+        margin-left: 0px;
+        width: 450px;
+    }
+   
+
+     /* ..............Watch Container................... */
+
+    .watch-container{
+        height: auto;
+    }
+    .images1 img{
+        margin-left: 30px;
+    }
+    .img-content1{
+        margin-left: 20px;
+    }
+
+      /* ..............Children Container................... */
+
+      .children-container{
+        height: auto;
+    }
+
+    /* ..............stranger Container................... */
+
+    .stranger-container{
+        height: auto;
+    }
+}
+
+
+    /* ...................................................For Large Screen............................................ */
+
+
+    @media (min-width: 1025px) and (max-width: 1200px){
+        .hero-main-content{
+            height: 100vh;
+        }
+        .hero-container {
+            height: 140vh;
+        }
+        .hero-main-content {
+            margin: 150px 0px 0px 50px;
+            line-height: 45px;
+        }
+        .hero-content h1 {
+            width: 90vw;
+            font-size: 2.5rem;
+            line-height: 55px;
+        }
+        .enjoy-container{
+            height: auto;
+        }
+        .enjoy-container .enjoy-content{
+            width: 90%;
+            margin: auto;
+        }
+        .enjoy-container .enjoy-content .img-content{
+            margin-top: 90px;
+            margin-left: 30px;
+        }
+        .enjoy-container .line{
+            
+        }
+    }
+
+
+
+
+
+
+
+
+
+
